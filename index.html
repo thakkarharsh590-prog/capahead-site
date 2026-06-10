@@ -3,13 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CapAhead is a privacy-first personal finance app from HAC Labs that helps you understand cashflow, bills, affordability, savings, and debt payoff.">
+  <meta name="description" content="CapAhead is a privacy-first budget planner for weekly and fortnightly pay cycles, bills, affordability checks, savings, and debt payoff.">
   <meta name="theme-color" content="#4f7d0f">
   <meta property="og:title" content="CapAhead">
-  <meta property="og:description" content="Know what is safe to spend, what bills are coming, and what to pay down next.">
+  <meta property="og:description" content="A calmer budget planner for weekly and fortnightly pay, bills, savings, and debt payoff.">
   <meta property="og:type" content="website">
-  <title>CapAhead | Personal Finance Clarity</title>
+  <meta property="og:url" content="https://capahead.com/">
+  <meta property="og:image" content="https://capahead.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://capahead.com/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <title>CapAhead - Budget Planner for Weekly &amp; Fortnightly Pay | HAC Labs</title>
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "CapAhead",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Android, Web",
+    "url": "https://capahead.com/",
+    "description": "A privacy-first budget planner for weekly and fortnightly pay cycles, bills, affordability checks, savings, and debt payoff.",
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "CapAhead Free",
+        "price": "0",
+        "priceCurrency": "AUD"
+      },
+      {
+        "@type": "Offer",
+        "name": "CapAhead Pro monthly",
+        "price": "4.99",
+        "priceCurrency": "AUD"
+      },
+      {
+        "@type": "Offer",
+        "name": "CapAhead Pro annual",
+        "price": "39.99",
+        "priceCurrency": "AUD"
+      }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "HAC Labs",
+      "url": "https://capahead.com/"
+    }
+  }
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
@@ -24,7 +65,7 @@
         <a href="#features">Features</a>
         <a href="#privacy">Privacy</a>
         <a href="#pricing">Pricing</a>
-        <a class="button secondary" href="#status">Launch status</a>
+        <a class="button secondary" href="#signup">Closed beta</a>
       </div>
     </nav>
   </header>
@@ -35,15 +76,15 @@
         <div class="eyebrow">By HAC Labs &middot; Built for real-life cashflow</div>
         <h1 id="hero-title">Know what your money can handle next.</h1>
         <p class="hero-copy">
-          CapAhead helps you track income, bills, savings, loans, and affordability decisions in one calm place, so you can spend with fewer surprises.
+          CapAhead helps you track income, bills, savings, loans, and affordability decisions in one calm place, built for weekly and fortnightly pay cycles.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="#status">Get launch updates</a>
+          <a class="button primary" href="#signup">Join the closed beta</a>
           <a class="button secondary" href="#features">See what it does</a>
         </div>
         <div class="trust-row" aria-label="Product highlights">
           <span>Device-first storage</span>
-          <span>Cashflow planning</span>
+          <span>Weekly and fortnightly cycles</span>
           <span>Debt payoff guidance</span>
         </div>
       </div>
@@ -52,7 +93,7 @@
         <div class="app-preview">
           <div class="app-top">
             <span>CapAhead</span>
-            <small>v2.9.4</small>
+            <small>Closed beta</small>
           </div>
           <div class="screen-title">Compass</div>
           <div class="app-cta">Can I afford this?</div>
@@ -75,11 +116,11 @@
                 <span>Bills this week</span>
               </div>
               <div class="metric">
-                <b>A$327</b>
+                <b>A$45/day</b>
                 <span>Daily spending</span>
               </div>
               <div class="metric">
-                <b>+A$2,223</b>
+                <b>+A$2,235</b>
                 <span>Save up to</span>
               </div>
             </div>
@@ -111,8 +152,8 @@
       <div class="feature-grid">
         <article class="feature">
           <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5"/><path d="M4 19h16"/><path d="m7 14 4-4 3 3 5-6"/></svg>
-          <h3>Weekly cashflow plan</h3>
-          <p>See expected income, upcoming bills, everyday spending, and what can safely be saved this week.</p>
+          <h3>Weekly and fortnightly cashflow</h3>
+          <p>See expected pay, upcoming bills, everyday spending, and what can safely be saved across Australian-style pay cycles.</p>
         </article>
 
         <article class="feature">
@@ -130,7 +171,7 @@
         <article class="feature">
           <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18"/><path d="M17 8a5 5 0 0 0-10 0c0 7 10 3 10 8a5 5 0 0 1-10 0"/></svg>
           <h3>Loan payoff guidance</h3>
-          <p>Track repayments and get a plain-English suggestion for which debt to focus on first.</p>
+          <p>Track repayments and get a plain-English suggestion for which debt to focus on first, including personal loans, car loans, and HECS-style payoff planning.</p>
         </article>
 
         <article class="feature">
@@ -181,21 +222,52 @@
 
         <article class="plan pro">
           <h3>CapAhead Pro</h3>
-          <div class="price">Coming soon</div>
-          <p>For stronger planning once the app is ready for public launch.</p>
+          <div class="price">A$4.99 <span>/ month</span></div>
+          <p>Start with a 7-day free trial. Annual Pro is A$39.99/year through Google Play.</p>
           <ul>
-            <li>Deeper insights</li>
+            <li>60-day forecast and deeper insights</li>
             <li>Recommended debt payoff</li>
-            <li>Expanded decision history</li>
+            <li>Expanded decision history and monthly reviews</li>
           </ul>
+          <p class="plan-note">Launch offers, if shown in Google Play, renew at A$39.99/year after the first year unless cancelled.</p>
         </article>
       </div>
     </section>
 
-    <section class="section final-cta" id="status" aria-labelledby="final-title">
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="section-head">
+        <h2 id="faq-title">Questions before you try it.</h2>
+        <p>Short answers for the things people usually want to know before trusting a finance app.</p>
+      </div>
+
+      <div class="faq-grid">
+        <article class="faq-item">
+          <h3>Does it connect to my bank?</h3>
+          <p>No. CapAhead is designed around manual entry and device-first storage, so you do not need to hand over bank-login access just to plan your week.</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>Where is my data stored?</h3>
+          <p>Your everyday finance entries stay on your device using browser or app storage unless you choose to export a backup.</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>What happens if I lose my phone?</h3>
+          <p>Encrypted backups and a recovery key help you restore your own data on a new device. Keep that recovery key somewhere safe.</p>
+        </article>
+
+        <article class="faq-item">
+          <h3>How much does Pro cost?</h3>
+          <p>Pro starts with a 7-day free trial, then A$4.99/month or A$39.99/year through Google Play. Any launch offer shown in Google Play renews at A$39.99/year after year one.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section final-cta" id="signup" aria-labelledby="final-title">
+      <div class="status-pill">Currently in closed beta</div>
       <h2 id="final-title">A calmer way to look ahead.</h2>
-      <p>CapAhead is operated by HAC Labs and is currently being prepared for launch. For early access or support, contact us and we will reply from the official CapAhead support inbox.</p>
-      <a class="button primary" href="mailto:support@capahead.com?subject=CapAhead%20launch%20updates">Contact support</a>
+      <p>CapAhead is operated by HAC Labs and is currently being prepared for launch. Email us to join the tester list or ask a support question.</p>
+      <a class="button primary" href="mailto:support@capahead.com?subject=CapAhead%20closed%20beta">Email to join beta</a>
     </section>
   </main>
 
